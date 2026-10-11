@@ -1,0 +1,24 @@
+[plugin]
+enabled = true
+config_version = "1.2.0"
+
+[admin]
+admin_qqs = []
+
+[webhook]
+host = "127.0.0.1"
+port = 18080
+path = "/maibot/friend_request"
+secret = ""
+
+[strategy]
+mode = "manual"
+model_name = "replyer"
+auto_remark = true
+
+[welcome]
+messages = ["你好呀新朋友，欢迎认识我！"]
+
+[notice]
+send_avatar = true
+avatar_size = 640
